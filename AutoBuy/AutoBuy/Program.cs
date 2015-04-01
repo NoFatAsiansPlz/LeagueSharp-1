@@ -190,7 +190,7 @@ namespace AutoBuy
             Menu.AddToMainMenu();
 
             Game.PrintChat("<font color=\"#33CC00\">Auto Buy Starting Items</font> - ["+ Player.ChampionName +"] v" + VersionE + " By <font color=\"#0066FF\">E2Slayer</font>");
-            Game.OnGameUpdate += Game_OnGameUpdate;
+            Game.OnUpdate += Game_OnGameUpdate;
            
         }
 
